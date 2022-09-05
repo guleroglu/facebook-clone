@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #F0F2F5;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;   
+}
+.text {
+    width: 35%;
+    font-size: 28px;
+    padding: 15px;
+    margin-top: 150px;
+}
+.text h1 {
+    color: #1877F2;
+}
+.form {
+    background: white;
+    width: 25%;
+    height: 45vh;
+    margin-top: 150px;
+}
+.form input {
+    display: block;
+    width: 90%;
+    height: 15%;
+    margin: auto;
+    margin-top: 15px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+.login-button {
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    height: 15%;
+    background: #166FE5;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0px;
+}
+.form a {
+    text-decoration: none;
+    
+}
+.form-pw {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: blue;
+}
+hr {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+.signup-button {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    height: 13%;
+    background: #36A420;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0px;
+}
+.form p {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 15px;
+}
